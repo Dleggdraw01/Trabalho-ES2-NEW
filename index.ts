@@ -84,6 +84,8 @@ function criaVeiculo(): Veiculo{
     veiculo.modelo = teclado('Modelo: ');
     veiculo.potencia = +teclado('Potência: ');
     veiculo.numeroMarchas = +teclado('Número de marchas: ');
+    veiculo.velocidade = 0;
+    veiculo.marchaAtual = 0
     return veiculo;
 }
 
